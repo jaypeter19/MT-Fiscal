@@ -12655,7 +12655,12 @@ p {
   border-radius: 100%;
 }
 
-.icon_instagram {
+.icons_footer {
+  height: 2rem;
+  width: 2rem;
+}
+
+.icons_nav {
   height: 2rem;
   width: 2rem;
 }
@@ -12665,7 +12670,13 @@ p {
   padding-bottom: 1rem;
   background-color: #bfd2e69c;
   z-index: 100;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  top: -2%;
 }
+
+
+
 
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -12685,6 +12696,8 @@ p {
   letter-spacing: 0.0625em;
   text-transform: uppercase;
   margin: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 #mainNav .navbar-brand img {
@@ -12757,6 +12770,7 @@ p {
     margin-right: 0;
   }
 }
+
 header.masthead {
   position: relative;
   background-image: url("../assets/img/header-bg.png");
@@ -12764,7 +12778,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  padding-top: 15.5rem;
+  padding-top: 17.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
@@ -12777,20 +12791,8 @@ header.masthead::before {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.15)
 }
-
-/* header.masthead {
-  padding-top: 15.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/header-bg.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center;
-  background-size: cover;
-} */
 
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -12803,6 +12805,7 @@ header.masthead .masthead-subheading {
 }
 
 @media (min-width: 768px) {
+ 
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
@@ -13079,7 +13082,7 @@ header.masthead .masthead-subheading {
     text-align: left;
   }
 
-  .instagram_icon_footer {
+  .icon_footer {
     display: none;
   }
 }
