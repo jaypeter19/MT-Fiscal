@@ -1,38 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap');
-
-html,
-body {
-    font-family: 'Raleway', sans-serif;
-}
 
 .thankyou-page ._header {
-    background: #fee028;
+    background: #0560aa;
     padding: 100px 30px;
     text-align: center;
-    background: #fee028 url(https://codexcourier.com/images/main_page.jpg) center/cover no-repeat;
-}
-
-.thankyou-page ._header .logo {
-    max-width: 200px;
-    margin: 0 auto 50px;
-}
-
-.thankyou-page ._header .logo img {
-    width: 100%;
-}
-
-.thankyou-page ._header h1 {
+  }
+  
+  .thankyou-page ._header h1 {
     font-size: 65px;
     font-weight: 800;
     color: white;
     margin: 0;
-}
-
-.thankyou-page ._body {
+  }
+  
+  .thankyou-page ._body {
     margin: -70px 0 30px;
-}
-
-.thankyou-page ._body ._box {
+  }
+  
+  .thankyou-page ._body ._box {
     margin: auto;
     max-width: 80%;
     padding: 50px;
@@ -41,22 +25,23 @@ body {
     box-shadow: 0 0 35px rgba(10, 10, 10, 0.12);
     -moz-box-shadow: 0 0 35px rgba(10, 10, 10, 0.12);
     -webkit-box-shadow: 0 0 35px rgba(10, 10, 10, 0.12);
-}
-
-.thankyou-page ._body ._box h2 {
+  }
+  
+  .thankyou-page ._body ._box h2 {
     font-size: 32px;
     font-weight: 600;
-    color: #4ab74a;
-}
-
-.thankyou-page ._footer {
+    color: #0560AA;
+    text-align: center;
+  }
+  
+  ._footer {
     text-align: center;
     padding: 50px 30px;
-}
-
-.thankyou-page ._footer .btn {
-    background: #4ab74a;
-    color: white;
+  }
+  
+  ._footer .btn {
+    background: #0560aa;
+    color: #fff;
     border: 0;
     font-size: 14px;
     font-weight: 600;
@@ -64,4 +49,9 @@ body {
     letter-spacing: 0.8px;
     padding: 20px 33px;
     text-transform: uppercase;
-}
+  }
+  
+  ._footer .btn:hover{
+    background-color: #fff;
+    color: #0560AA;
+  }
