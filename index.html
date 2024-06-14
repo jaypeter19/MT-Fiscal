@@ -293,7 +293,7 @@
                         serviços.
                         Teremos satisfação em atendê-lo.</h3>
                 </div>
-                <form action="registro.html" id="contactForm" data-sb-form-api-token="d87b121d-4080-4c26-a160-b09e79fa8597">
+                <form action="registro.html" method="POST" id="contactForm" data-sb-form-api-token="d87b121d-4080-4c26-a160-b09e79fa8597">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -481,6 +481,17 @@
      <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <!-- JS-->
     <script src="js/scripts.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevenir a submissão padrão do formulário
+
+            // Simular uma chamada de API ou validação do serviço de terceiros
+            setTimeout(function () {
+                // Redirecionar para a página de registro.html após o envio bem-sucedido
+                window.location.href = 'https://mtfiscal.com.br/registro.html';
+            }, 1000); // Simular um atraso de 1 segundo para a chamada de API
+        });
+    </script>
 </body>
 
 </html>
