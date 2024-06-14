@@ -53,8 +53,6 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 document.getElementById('contactForm').addEventListener('submit', function (event) {
-    event.preventDefault(); // Prevenir a submissão padrão do formulário
-
     // Simular uma chamada de API ou validação do serviço de terceiros
     setTimeout(function () {
         // Redirecionar para a página de registro.html após o envio bem-sucedido
