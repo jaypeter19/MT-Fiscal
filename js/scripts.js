@@ -52,12 +52,17 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-// document.getElementById('contactForm').addEventListener('submit', function (event) {
-//     // Simular uma chamada de API ou validação do serviço de terceiros
-//     setTimeout(function () {
-//         // Redirecionar para a página de registro.html após o envio bem-sucedido
-//         window.location.href = 'registro.html';
-//     }, 3000); // Simular um atraso de 1 segundo para a chamada de API
-// });
-
-
+function redirecionar() {
+    // Simula o envio do formulário
+    setTimeout(function() {
+        // Mostra a mensagem "mensagem enviada"
+        const message = document.getElementById('submitSuccessMessage').innerText;
+        if (message === 'Mensagem Enviada') {
+        // Redireciona para registro.html após 2 segundos
+        // Tempo em milissegundos (2000ms = 2s)
+            setTimeout(function() {
+                window.location.href = 'registro.html';
+            }, 2000); 
+        }
+    }, 1000); // Tempo em milissegundos para simular o envio do formulário
+}
