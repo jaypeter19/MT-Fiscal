@@ -56,8 +56,8 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     // Simular uma chamada de API ou validação do serviço de terceiros
     setTimeout(function () {
         // Redirecionar para a página de registro.html após o envio bem-sucedido
-        window.location.href = 'https://mtfiscal.com.br/registro.html';
-    }, 1000); // Simular um atraso de 1 segundo para a chamada de API
+        window.location.href = 'registro.html';
+    }, 3000); // Simular um atraso de 1 segundo para a chamada de API
 });
 
 
