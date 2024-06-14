@@ -55,6 +55,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     setTimeout(function() {
-        window.location.href = 'https://www.seusite.com/outra-pagina';
+        window.location.href = 'https://www.mtfiscal.com.br/registro.html';
     }, 3000);
 });
