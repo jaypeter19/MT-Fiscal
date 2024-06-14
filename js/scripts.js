@@ -51,18 +51,3 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
-
-function redirecionar() {
-    // Simula o envio do formulário
-    setTimeout(function() {
-        // Mostra a mensagem "mensagem enviada"
-        const message = document.getElementById('submitSuccessMessage').innerText;
-        if (message === 'Mensagem Enviada') {
-        // Redireciona para registro.html após 2 segundos
-        // Tempo em milissegundos (2000ms = 2s)
-            setTimeout(function() {
-                window.location.href = 'registro.html';
-            }, 2000); 
-        }
-    }, 1000); // Tempo em milissegundos para simular o envio do formulário
-}
