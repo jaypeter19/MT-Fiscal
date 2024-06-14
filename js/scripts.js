@@ -54,12 +54,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 document.getElementById('contactForm').addEventListener('submit', function (event) {
-    
-    console.log('Foi enviado');
-
-    // // Simular uma chamada de API ou validação do serviço de terceiros
-    // setTimeout(function () {
-    //     // Redirecionar para a página de registro.html após o envio bem-sucedido
-    //     window.location.href = 'registro.html';
-    // }, 1000); // Simular um atraso de 1 segundo para a chamada de API
+    setTimeout(function() {
+        window.location.href = 'https://www.seusite.com/outra-pagina';
+    }, 3000);
 });
