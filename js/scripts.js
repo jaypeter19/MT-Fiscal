@@ -52,6 +52,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+document.getElementById('submitButton').addEventListener('click', function (e) {
 
 document.getElementById('submitButton').addEventListener('click', function (event) {
     setTimeout(function() {
