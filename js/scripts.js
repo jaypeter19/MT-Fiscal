@@ -50,10 +50,10 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-});
+    document.getElementById('submitButton').addEventListener('click', function (event) {
+        setTimeout(function () {
+            window.location.href = 'https://www.mtfiscal.com.br/registro.html';
+        }, 3000);
+    });
 
-document.getElementById('submitButton').addEventListener('click', function (e) {
-    setTimeout(function() {
-        window.location.href = 'https://www.mtfiscal.com.br/registro.html';
-    }, 3000);
 });
