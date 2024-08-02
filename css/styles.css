@@ -1,6 +1,5 @@
-
-
 /* ===========================CSS ========================================================================== */
+
 
 html {
   scroll-padding-top: 4.5rem;
@@ -8,7 +7,52 @@ html {
 
 body {
   position: relative;
-  font-family: 'Montserrat','Roboto Slab', ;
+  font-family: 'Montserrat', 'Roboto Slab', ;
+}
+
+header.masthead .masthead-subheading h1 {
+  font-size: 2.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab";
+  text-shadow: 0px 0px 2px rgba(255, 255, 255);
+  color: #0560AA;
+  font-weight: 700;
+}
+
+#text-primary {
+  color: #0560aa;
+}
+
+#service_p {
+  color: #6c757d !important;
+  font-family: 'Roboto Slab';
+
+}
+
+#modal_title {
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+.btn {
+  font-family: 'Montserrat';
+  background-color: #0560aa;
+
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #6099c8;
+  border-color: #fff;
+}
+
+
+.my-3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 p {
@@ -35,6 +79,7 @@ p {
   font-weight: 700;
   font-family: 'Montserrat';
 }
+
 .form-control {
   display: block;
   width: 100%;
@@ -226,7 +271,7 @@ header.masthead .masthead-subheading {
 }
 
 @media (min-width: 768px) {
- 
+
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
