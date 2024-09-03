@@ -584,15 +584,6 @@ header.masthead .masthead-subheading {
 }
 
 
-
-@media (min-width: 1500px) {
-  #mainNav.navbar-shrink {
-    max-height: 18%;
-  }
-}
-
-
-
 @media (min-width: 1200px) {
   #header_logo_scroll {
     width: 10rem;
