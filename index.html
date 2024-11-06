@@ -92,7 +92,8 @@
                             <i class="fa-solid fa-sack-dollar fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Recuperação de Tributos</h4>
-                        <p class="text-muted" id="service_p">Recuperar tributos é restaurar recursos financeiros através de estratégias
+                        <p class="text-muted" id="service_p">Recuperar tributos é restaurar recursos financeiros através
+                            de estratégias
                             legais para otimizar a gestão fiscal da empresa.</p>
                     </div>
                     <div class="col-md-4">
@@ -101,7 +102,8 @@
                             <i class="fa-solid fa-unlock fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Proteção de Legado</h4>
-                        <p class="text-muted" id="service_p">Proteger o legado é assegurar a preservação e continuidade dos valores,
+                        <p class="text-muted" id="service_p">Proteger o legado é assegurar a preservação e continuidade
+                            dos valores,
                             tradições e conquistas de uma organização ou família.</p>
                     </div>
                     <div class="col-md-4">
@@ -110,7 +112,8 @@
                             <i class="fa-solid fa-brain fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Gestão de Ativo Intelectual</h4>
-                        <p class="text-muted" id="service_p">A gestão de ativos de propriedade intelectual envolve identificar,
+                        <p class="text-muted" id="service_p">A gestão de ativos de propriedade intelectual envolve
+                            identificar,
                             proteger,
                             valorizar e negociar os recursos de conhecimento e propriedade intelectual de uma empresa ou
                             pessoa.</p>
@@ -295,44 +298,35 @@
                         serviços.
                         Teremos satisfação em atendê-lo.</h3>
                 </div>
-                <form id="contactForm" data-sb-form-api-token="d87b121d-4080-4c26-a160-b09e79fa8597">
+                <form id="contactForm" class="needs-validation" action="https://www.mtfiscal.com.br/registro.html"
+                    novalidate>
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Nome *"
-                                    data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Nome obrigatório.</div>
+                                <input class="form-control" id="name" type="text" placeholder="Nome*" required />
+                                <div class="invalid-feedback">Nome obrigatório.</div>
                             </div>
                             <div class="form-group">
                                 <!-- Email input-->
-                                <input class="form-control" id="email" type="email" placeholder="Email *"
-                                    data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">Email obrigatório.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email não válido.</div>
+                                <input class="form-control" id="email" type="email" placeholder="Email*" required />
+                                <div class="invalid-feedback">Email obrigatório.</div>
                             </div>
                             <div class="form-group mb-md-0">
                                 <!-- Telefone input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Telefone *"
-                                    data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">Telefone obrigatório.
+                                <input class="form-control" id="phone" type="tel" placeholder="Telefone*" required />
+                                <div class="invalid-feedback">Telefone obrigatório.
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <!-- Mensagem input-->
-                                <textarea class="form-control" id="message" placeholder="Escreva sua mensagem aqui *"
-                                    data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">Mensagem obrigatório.
+                                <textarea class="form-control" id="message" placeholder="Escreva sua mensagem aqui*"
+                                    required></textarea>
+                                <div class="invalid-feedback">Mensagem obrigatório.
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <!-- Envio com sucesso-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Mensagem Enviada</div>
                         </div>
                     </div>
                     <!-- Erro ao enviar-->
@@ -341,10 +335,9 @@
                     </div>
                     <!--Button Enviar-->
                     <div class="text-center">
-                        <button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton"
-                            type="submit">Enviar</button>
+                        <button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit"
+                            disabled>Enviar</button>
                     </div>
-
                 </form>
             </div>
         </section>
@@ -453,7 +446,8 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase" id="modal_title">Gestão de Ativo de Propriedade Intelectual</h2>
+                                <h2 class="text-uppercase" id="modal_title">Gestão de Ativo de Propriedade Intelectual
+                                </h2>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/gestao.jpg"
                                     alt="Gestão de Ativo Intelectual Imagem Modal" />
                                 <p>A gestão de ativos de propriedade intelectual envolve a estratégia de identificar,
@@ -477,17 +471,16 @@
             </div>
         </div>
     </div>
-    <!-- Bootstrap Libraries-->
+    <!-- Bootstrap Libraries and Email JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
-    <!-- Start Bootstrap Form Script -->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <!-- JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/validation.js"></script>
     <!-- Whatsapp Widget -->
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <div style="display: none;" class="elfsight-app-449e17f5-b16a-4b0f-895e-05d8de76fd42" data-elfsight-app-lazy></div>
