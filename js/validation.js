@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             };
 
             // Enviar email com EmailJS
-            emailjs.send('service_377deyi', 'template_j1jn86p', formData)
+            emailjs.send('service_y4t78kk', 'template_j1jn86p', formData)
                 .then((response) => {
                     console.log('E-mail enviado com sucesso!', response.status, response.text);
                     document.getElementById('submitErrorMessage').classList.add('d-none');
