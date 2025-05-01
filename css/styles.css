@@ -41,7 +41,7 @@ header.masthead .masthead-subheading h1 {
   border-color: #fff;
 }
 
-.btn.disabled{
+.btn.disabled {
   background-color: #0560aa;
 }
 
@@ -741,6 +741,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-decoration: none;
   color: #212529;
 }
-.footer_link:hover{
+
+.footer_link:hover {
   color: #0560aa;
 }
