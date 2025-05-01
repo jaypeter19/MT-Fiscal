@@ -1,11 +1,3 @@
-/*!
-* Start Bootstrap - Agency v7.0.12 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -50,10 +42,5 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    document.getElementById('submitButton').addEventListener('click', function (event) {
-        setTimeout(function () {
-            window.location.href = 'https://www.mtfiscal.com.br/registro.html';
-        }, 3000);
-    });
-
 });
+
