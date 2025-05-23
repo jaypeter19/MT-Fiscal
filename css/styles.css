@@ -41,7 +41,7 @@ header.masthead .masthead-subheading h1 {
   border-color: #fff;
 }
 
-.btn.disabled {
+.btn.disabled{
   background-color: #0560aa;
 }
 
@@ -136,7 +136,6 @@ p {
   z-index: 100;
   padding-top: 0px;
   padding-bottom: 0px;
-  top: -2%;
 }
 
 
@@ -163,7 +162,7 @@ p {
 }
 
 #mainNav .navbar-brand img {
-  width: 7.5rem;
+  width: 6.5rem;
 }
 
 #mainNav .navbar-nav {
@@ -584,6 +583,15 @@ header.masthead .masthead-subheading {
 }
 
 
+
+@media (min-width: 1500px) {
+  #mainNav.navbar-shrink {
+    max-height: 18%;
+  }
+}
+
+
+
 @media (min-width: 1200px) {
   #header_logo_scroll {
     width: 10rem;
@@ -741,7 +749,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-decoration: none;
   color: #212529;
 }
-
-.footer_link:hover {
+.footer_link:hover{
   color: #0560aa;
 }
