@@ -1,6 +1,6 @@
 // Inicialização EmailJS
 document.addEventListener('DOMContentLoaded', () => {
-    emailjs.init("d7dYzuX-eyVk5ljaD"); // Substitua pelo seu Service ID
+    emailjs.init("d7dYzuX-eyVk5ljaD"); 
     const form = document.getElementById('contactForm');
     const submitButton = document.getElementById('submitButton');
 
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 message: document.getElementById('message').value
             };
 
-            // Enviar email com EmailJS
+            // Enviar email
             emailjs.send('service_y4t78kk', 'template_j1jn86p', formData)
                 .then((response) => {
                     console.log('E-mail enviado com sucesso!', response.status, response.text);
