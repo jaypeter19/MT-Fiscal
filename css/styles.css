@@ -494,7 +494,7 @@ section#contact form#contactForm ::placeholder {
   #mainNav {
     padding: 0;
   }
- 
+
   #mainNav .navbar-brand {
     margin: 0;
     padding: 0;
@@ -518,6 +518,14 @@ section#contact form#contactForm ::placeholder {
 
   .hide-nav {
     display: none;
+  }
+
+  #portfolio .portfolio-item .proc {
+    min-height: 6.6rem;
+  }
+
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 1.2rem;
   }
 
   .timeline>li {
@@ -575,20 +583,28 @@ section#contact form#contactForm ::placeholder {
 }
 
 @media (min-width: 1200px) {
-   #mainNav {
+  #mainNav {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border: none;
     background-color: transparent;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
-  
+
   #mainNav .navbar-brand img {
     margin: 1rem 0 0 5rem;
     width: 10rem;
     transition: height 0.3s ease-in-out;
   }
- 
+
+  #portfolio .portfolio-item .proc {
+    min-height: 7.5rem;
+  }
+
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 1.5rem;
+  }
+
   .timeline>li {
     min-height: 170px;
   }
