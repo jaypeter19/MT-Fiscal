@@ -105,7 +105,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -519,6 +519,10 @@ section#contact form#contactForm ::placeholder {
   .hide-nav {
     display: none;
   }
+   header.masthead {
+    height: 100vh;
+  }
+
 
   #portfolio .portfolio-item .proc {
     min-height: 6.6rem;
@@ -549,7 +553,6 @@ section#contact form#contactForm ::placeholder {
 
 
 @media (min-width: 768px) {
-
 
   .timeline:before {
     left: 50%;
